@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Links Section */
+.top-links {
+    background-color: red;
+    padding: 10px;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+h1 {
+    color: yellow;
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: lightgray;
+}
+
+/* Main Content & Sidebar */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 10px;
+}
+
+aside {
+    width: 25%;
+    padding: 20px;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+/* Sidebar Hover Effect */
+aside:hover {
+    background-color: lightblue;
+}
+
+/* Form Styling */
+input[type="text"] {
+    width: 200px;
+    transition: width 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 250px;
+}
